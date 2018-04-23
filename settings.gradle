@@ -1,0 +1,1 @@
+include ':app', ':base_lib', ':base_core', ':base_res', ':component_service', ':component_one'
