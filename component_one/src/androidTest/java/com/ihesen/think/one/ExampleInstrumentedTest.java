@@ -1,4 +1,4 @@
-package com.ihesen.think.component_one;
+package com.ihesen.think.one;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

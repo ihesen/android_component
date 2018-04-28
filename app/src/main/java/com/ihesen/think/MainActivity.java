@@ -10,4 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void openComponentOneMainPage(){
+        ARouter.getInstance().build(AppRouter.MAIN_ACTIVITY).navigation();
+    }
 }

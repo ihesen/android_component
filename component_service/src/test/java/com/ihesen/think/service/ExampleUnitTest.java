@@ -1,4 +1,4 @@
-package com.ihesen.think.component_service;
+package com.ihesen.think.service;
 
 import org.junit.Test;
 
