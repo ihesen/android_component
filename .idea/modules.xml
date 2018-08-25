@@ -3,12 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android_component.iml" filepath="$PROJECT_DIR$/android_component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_component.iml" filepath="$PROJECT_DIR$/android_component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_core/base_core.iml" filepath="$PROJECT_DIR$/base_core/base_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_core/base_core.iml" filepath="$PROJECT_DIR$/base_core/base_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_lib/base_lib.iml" filepath="$PROJECT_DIR$/base_lib/base_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_lib/base_lib.iml" filepath="$PROJECT_DIR$/base_lib/base_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_res/base_res.iml" filepath="$PROJECT_DIR$/base_res/base_res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_res/base_res.iml" filepath="$PROJECT_DIR$/base_res/base_res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_one/component_one.iml" filepath="$PROJECT_DIR$/component_one/component_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/component_one/component_one.iml" filepath="$PROJECT_DIR$/component_one/component_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/component_service/component_service.iml" filepath="$PROJECT_DIR$/component_service/component_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_service/component_service.iml" filepath="$PROJECT_DIR$/component_service/component_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_two/component_two.iml" filepath="$PROJECT_DIR$/component_two/component_two.iml" />
     </modules>
   </component>
 </project>

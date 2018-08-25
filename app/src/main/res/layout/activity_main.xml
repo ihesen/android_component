@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     tools:context="com.ihesen.think.MainActivity">
 
-    <TextView
-        android:id="@+id/tv_open_component_one"
+    <Button
+        android:id="@+id/btn_open_component_one"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"

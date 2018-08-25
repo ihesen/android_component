@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="think.ihesen.com.component_one">
+<manifest package="com.ihesen.think.one"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application>
-        <activity android:name="com.ihesen.think.one.ui.activities.MainActivity"></activity>
+        <activity android:name="com.ihesen.think.one.ui.activities.OneMainActivity"/>
     </application>
 
 </manifest>

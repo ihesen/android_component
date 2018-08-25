@@ -1,11 +1,13 @@
 apply plugin: 'com.dd.comgradle'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion build_versions.compile_sdk
+    buildToolsVersion build_versions.build_tools
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
 
@@ -26,18 +28,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
 
+combuild {
+    applicationName = 'com.ihesen.think.one.runalone.OneApplication'
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:0.5'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
-
-    implementation project(':component_service')
+    implementation deps.support.appcompat_v7
+    testImplementation deps.junit
 
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+    annotationProcessor deps.butterknife
+
+    implementation project(':component_service')
 }
