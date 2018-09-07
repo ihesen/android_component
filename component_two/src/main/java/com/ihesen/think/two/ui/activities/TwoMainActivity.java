@@ -2,6 +2,7 @@ package com.ihesen.think.two.ui.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.ihesen.think.service.route.IRoute;
@@ -14,5 +15,7 @@ public class TwoMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.two_activity_main);
+
+        Log.e("ihesen:", getIntent().getStringExtra("testKey"));
     }
 }

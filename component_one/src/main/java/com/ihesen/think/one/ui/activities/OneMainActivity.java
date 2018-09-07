@@ -26,6 +26,9 @@ public class OneMainActivity extends AppCompatActivity {
 
     @OnClick({R2.id.tv_one_component})
     public void openPage(){
-        ARouter.getInstance().build(IRoute.TwoRoute.MAIN_ACTIIVTY).navigation();
+        Bundle bundle = new Bundle();
+        bundle.putString("testKey","testValue");
+        ARouter.getInstance().build(IRoute.TwoRoute.MAIN_ACTIIVTY).with(bundle).navigation();
+//        ARouter.getInstance().build(IRoute.TwoRoute.MAIN_ACTIIVTY).navigation();
     }
 }
