@@ -28,5 +28,4 @@ public class OneMainActivity extends AppCompatActivity {
     public void openPage(){
         ARouter.getInstance().build(IRoute.TwoRoute.MAIN_ACTIIVTY).navigation();
     }
-
 }

@@ -1,11 +1,7 @@
 package com.ihesen.think.one.runalone;
 
-import android.app.Application;
+import com.ihesen.think.base.BaseApplication;
 
-public class OneApplication extends Application {
+public class OneApplication extends BaseApplication {
 
-    @Override
-    public void onCreate() {
-        super.onCreate();
-    }
 }
